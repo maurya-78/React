@@ -14,7 +14,9 @@ function App() {
         </div>
   
         <div className="fixed bottom-12 inset-x-0 flex justify-center">
+
           <div className="flex flex-wrap gap-3 shadow-lg bg-white px-4 py-3 rounded-xl">
+
             <button
               onClick={() => {
                 //   console.log("clicked red")
@@ -25,6 +27,7 @@ function App() {
             >
               Red
             </button>
+
             <button
               onClick={() => {
                 //   console.log("clicked black")
@@ -35,6 +38,7 @@ function App() {
             >
               Black
             </button>
+
             <button
               onClick={() => setColor("blue")}
               className="px-4 py-2 rounded-lg text-white"
@@ -42,6 +46,7 @@ function App() {
             >
               Blue
             </button>
+
             <button
               onClick={() =>{ setColor("yellow")
 
@@ -54,6 +59,7 @@ function App() {
             >
               Yellow
             </button>
+
             <button
               onClick={() => setColor("green")}
               className="px-4 py-2 rounded-lg text-white"
@@ -69,6 +75,7 @@ function App() {
             >
               Purple
             </button>
+            
           </div>
         </div>
       </div>
